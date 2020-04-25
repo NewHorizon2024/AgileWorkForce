@@ -39,6 +39,8 @@ header {
     flex-direction: column;
     background-color: #ffffff;
     border-left: 4px solid #00aaee;
+    transition: 0.5s ease-out;
+    transform: scaleX(0);
 }
 .content {
     display: flex;
@@ -75,6 +77,8 @@ header {
 .sec-right {
     display: flex;
     width: 50vw;
+    transition: 0.5s ease-out;
+    transform: scaleY(0);
 }
 .right-container {
     width: 100%;
